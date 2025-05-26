@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Demo</title>
+  <script>
+    // Show an alert when the page loads
+    window.onload = function() {
+      alert("Welcome to my page!");
+      console.log("Page loaded!");
+
+      // Change paragraph text
+      var paragraph = document.getElementById("demo");
+      if (paragraph) {
+        paragraph.textContent = "Text changed by JavaScript";
+      }
+    };
+  </script>
+</head>
+<body>
+
+  <h1>Hello, World!</h1>
+  <p id="demo">Original paragraph text.</p>
+
+</body>
+</html>
